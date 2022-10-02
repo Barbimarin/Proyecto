@@ -1,0 +1,168 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+@media (max-width: 1000px){
+    header{
+            /* Reverse the axis of the header, making it vertical. */
+            flex-direction: column;
+            
+            /* Align items to the begining (the left) of the header. */
+            align-items: flex-start;
+    }
+}
+
+
+
+
+.header{
+    
+    justify-content: space-between;
+    background: #2f3338;
+    color: white;
+    padding: 2rem;
+    position:fixed;
+    left: 0;
+    top: 0;
+    right: -10cm;
+    z-index: 10;
+}
+
+
+.logo{
+    
+    width: 105px;
+    height: 70px;
+    position: fixed;
+    left: 2cm;
+}
+
+.sub{
+    margin-left: -8cm;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    padding: 0.5rem 1rem;
+    display:block;
+
+}
+
+.nav ul li a:hover{
+    color:rgb(142, 198, 235);
+}
+
+.img-fluid{
+    filter: brightness(60%);
+}
+
+
+.tittle{
+color: white;
+top: 12cm;
+right: 3cm;
+font-size:calc(1.40rem + .8vw);
+position: absolute;
+
+}
+    
+.foto{
+    height: 25%;
+    width: 25%;
+    transform: translate(50%, 0%);
+    padding: 20px;
+
+}
+
+.centrado{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    color: white;
+    
+}
+ 
+.button{
+    position: absolute;
+    top: 65%;
+    left: 80%;
+}
+
+.titulo{
+    color: white;
+    margin-left: -2cm;
+}
+
+.texto{
+    color: white;
+    margin-left: -2cm;
+}
+
+.btn-outline-light{
+    margin-top: 20px;
+    margin-left: -2cm;
+
+}
+
+#form1{
+    text-align: center;
+    margin-left: 10cm;
+}
+
+#charla{
+    text-align: left;
+}
+
+
+#footer{
+    position: relative;
+    padding: 1rem;
+    color: white;
+   
+    
+    background-image: linear-gradient(
+  90deg,
+  hsl(197deg 42% 18%) 0%,
+  hsl(198deg 44% 19%) 14%,
+  hsl(198deg 46% 20%) 28%,
+  hsl(199deg 48% 21%) 41%,
+  hsl(199deg 50% 22%) 53%,
+  hsl(199deg 53% 23%) 65%,
+  hsl(200deg 55% 24%) 76%,
+  hsl(200deg 57% 25%) 85%,
+  hsl(200deg 59% 26%) 94%,
+  hsl(200deg 61% 27%) 100%
+);
+    
+}
+
+#footer :hover{
+    color: rgb(142, 198, 235);
+}
+
+
